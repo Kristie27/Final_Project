@@ -2,4 +2,91 @@
 GENERAL
 *****************/
 
+.title{
+    background-color: darkorange;
+    
+}
 
+
+
+
+
+/*****************
+COLORS
+*****************/
+
+
+
+/*****************
+HEADER
+*****************/
+header {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 10px 0 0 0;
+}
+    
+    
+/*****************
+NAVIGATION
+*****************/
+nav ul li {
+    display: inline-block;
+}
+
+nav {
+    text-align: center;
+    padding: 25px 40px;
+    margin: 20px 0 0;
+}
+
+nav a {
+    font-weight: 300;
+    padding: 10px 10px;
+}
+
+nav ul {
+    margin: 1 10px;
+    padding: 10;
+    
+}
+
+
+.nav-link:link, nav-link:visited, nav-link:hover,nav-link:active{
+    background-color:lightgreen;
+    color:white;
+    padding: 10px 80px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 40%;
+}
+
+            
+        
+    
+    
+    
+}
+
+/***** MEDIA QUERY****/
+
+@media screen (min-width: 800px){
+    .container {
+        width:33%;
+        float: left;
+    }
+
+    h1 {
+        font-size: 2.5em;
+    }
+    .footer{
+        text-align: center;
+    } 
+}
+
+
+    
+    
+    
+    
