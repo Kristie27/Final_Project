@@ -7,14 +7,72 @@ GENERAL
     
 }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
 
+/* Add a hover effect */
+.fa:hover {
+  opacity: 0.7;
+}
 
+/* Set a specific color for each */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Email */
+.fa-envelope-square {
+  background: #3B5998;
+  color: white;
+}
+
+/* Phone */
+.fa-phone {
+  background: #55ACEE;
+  color: white;
+}
+
+.logo ul li{
+   display: inline-block; 
+}
+
+.Gallery ul li{
+   display: inline-block; 
+}
+
+footer{
+       height: 125px;
+    padding: 1px;
+}
+
+.ohmy{
+  padding: 25px; 
+}
 
 
 /*****************
 COLORS
 *****************/
-
+#response{
+  background-color:lightgreen;
+      color: white;
+    
+}
 
 
 /*****************
@@ -30,6 +88,7 @@ header {
 /*****************
 NAVIGATION
 *****************/
+
 nav ul li {
     display: inline-block;
 }
@@ -52,20 +111,16 @@ nav ul {
 }
 
 
-.nav-link:link, nav-link:visited, nav-link:hover,nav-link:active{
+.nav-link:link, nav-link:visited, nav-link:hover, nav-link:active{
     background-color:lightgreen;
     color:white;
-    padding: 10px 80px;
-    text-align: center;
+    padding: 10px 80px 10px 50px;
+    text-align:justify;
     text-decoration: none;
     display: inline-block;
     width: 40%;
 }
-
-            
-        
-    
-    
+           
     
 }
 
@@ -75,6 +130,7 @@ nav ul {
     .container {
         width:33%;
         float: left;
+        margin-top: auto;
     }
 
     h1 {
@@ -82,11 +138,20 @@ nav ul {
     }
     .footer{
         text-align: center;
+    
     } 
+    .Gallery{
+        width:33%;
+        float: left;
+        margin-top: auto; 
+    }
 }
-
-
+   input[type=button]{
+background-color:#123456;
+border:1px solid white;
+font-family: 'Fauna One', serif;
+font-Weight:bold;
+font-size:18px;
+color:white; 
     
-    
-    
-    
+  

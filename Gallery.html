@@ -3,22 +3,38 @@
 <html>
 
 <head>
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Title -->
-    <title>Wildlife Animal Sanctuary/Gallery</title>
+<title>Wildlife Animal Sanctuary/Home</title>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CUSTOM STYLES CALLED IN AFTER BOOTSTRAP-->
+    <link href="css/styles.css" rel="stylesheet"/>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
 </head>
 
 <body>
     <!-- Start Header-->
-    <header>
-    <nav>            
+    <header>    
+        <div class="container">
+        <h1 class="title">Wildlife Animal Sactuary</h1>
+        </div>
+   <nav>            
   <!-- Navbar with 4 links: Home, Gallery, About Us, Contact --> 
 
          <ul>
-             <li><a href="index.html">Home</a></li>
-              <li><a href="Gallery.html">Gallery</a></li>
-             <li><a href="about.html">About</a> </li>
-             <li><a href="contact.html">Contact</a></li>
-            </ul> 
+             <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="Gallery.html" class="nav-link">Gallery</a></li>
+             <li><a href="about.html" class="nav-link" >About</a> </li>
+             <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>       
+       
     </nav>
      <!-- END OF NAVBAR-->   
             
@@ -26,7 +42,9 @@
         
 
 </header>
-<ul id="Gallery">
+    
+    <div class="Gallery">
+<ul>
  <li> 
      <img src="\img\Tiger.jpg">
     
@@ -59,16 +77,29 @@
          <img src="\img\White tiger.jpg">
 
     </ul>
+    </div>
    
     <!-- START FOOTER-->
-    <footer>
-        <!-- There is a facebook link that opens a new tab-->
-        <a href="http://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
-        <!-- There is a twitter link that opens a new tab-->
-        <a href="http://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
-        <!-- Copyright information-->
-        <p>&copy; 2020 Kristie</p>
-    </footer>
+
+    
+           <!-- Begin Full Width Sticky Footer -->
+  <footer>
+    <div class="navbar fixed-bottom bg-light d-inline">
+        <div class="row justify-content-center">
+            
+            <a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://mail.com" target="_blank" class="fa fa-envelope-square"></a>
+            <a href="https://phone.com" target="_blank" class="fa fa-phone"></a>
+
+        </div>
+        <div class="row justify-content-center mt-2">
+            <p>&copy; 2020 Kristie</p>
+        </div>
+    </div>
+      </footer>
+   
+
     <!-- END FOOTER-->
 
 </body>

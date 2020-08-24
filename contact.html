@@ -3,42 +3,93 @@
 <html>
 
 <head>
-   <!-- Title -->
-  <title>Wildlife Animal Sanctuary/Contact</title>
-     
+
+        <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+<title>Wildlife Animal Sanctuary/Home</title>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- CUSTOM STYLES CALLED IN AFTER BOOTSTRAP-->
+    <link href="css/styles.css" rel="stylesheet"/>
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
-     <!-- Start Header-->
-    <header>
-        <h1>Amazing Animal Sactuary</h1> 
-    
-<!-- Start NAVBAR-->
-        <nav>
+    <!-- Start Header-->
+    <header>    
+        <div class="container">
+        <h1 class="title">Wildlife Animal Sactuary</h1>
+        </div>
+   <nav>            
   <!-- Navbar with 4 links: Home, Gallery, About Us, Contact --> 
-            <ul>
-             <li><a href="index.html">Home</a></li>
-              <li><a href="Gallery.html">Gallery</a></li>
-             <li><a href="about.html">About</a> </li>
-             <li><a href="contact.html">Contact</a></li>
-            </ul> 
-    </nav>
-     <!-- END OF NAVBAR-->
 
-    </header>
-  <!-- END OF HEADER -->
+         <ul>
+             <li><a href="index.html" class="nav-link">Home</a></li>
+              <li><a href="Gallery.html" class="nav-link">Gallery</a></li>
+             <li><a href="about.html" class="nav-link" >About</a> </li>
+             <li><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>       
+       
+    </nav>
+     <!-- END OF NAVBAR--> 
+   <p> Please enter your information and we will contact you: </p>   
     
-    <!-- START FOOTER-->
-    <footer>
-        <!-- There is a facebook link that opens a new tab-->
-        <a href="http://facebook.com" target="_blank"><img src="img/facebook-wrap.png" class="social-icon"></a>
-        <!-- There is a twitter link that opens a new tab-->
-        <a href="http://twitter.com" target="_blank"><img src="img/twitter-wrap.png" class="social-icon"></a>
-        <!-- Copyright information-->
-        <p>&copy; 2020 Kristie</p>
-    </footer>
+
+<div id="mainform">
+<!-- Required Div Starts Here -->
+<form id="form">
+<h3>Contact Form</h3>
+<p id="returnmessage"></p>
+<label>Name: <span>*</span></label>
+<input type="text" id="name" placeholder="Name"/>
+<label>Email: <span>*</span></label>
+<input type="text" id="email" placeholder="Email"/>
+<label>Contact No: <span>*</span></label>
+<input type="text" id="contact" placeholder="10 digit phone#"/>
+<!--<label>Message:</label>
+<textarea id="message" placeholder="Message......."></textarea>-->
+<input type="button" id="submit" value="Send Message"/>
+</form>
+    
+    </div>
+    
+    </header>
+
+  <!-- END OF HEADER -->
+    <h2 id="response"></h2>
+    
+            <!-- Begin Full Width Sticky Footer -->
+  <footer>
+    <div class="navbar fixed-bottom bg-light d-inline">
+        <div class="row justify-content-center">
+            
+            <a href="https://facebook.com" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://twitter.com" target="_blank" class="fa fa-twitter"></a>
+            <a href="https://mail.com" target="_blank" class="fa fa-envelope-square"></a>
+            <a href="https://phone.com" target="_blank" class="fa fa-phone"></a>
+
+        </div>
+        <div class="row justify-content-center mt-2">
+            <p>&copy; 2020 Kristie</p>
+        </div>
+    </div>
+      </footer>
+
     <!-- END FOOTER-->
 
+ <!-- BOOTSTRAP JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- CUSTOM JS-->
+    <script src="main.js"></script>
 </body>
 
 </html>
